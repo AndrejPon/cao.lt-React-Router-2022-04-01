@@ -1,0 +1,39 @@
+@import url('https://cdn.jsdelivr.net/npm/water.css@2/out/water.css');
+*{
+    width: 1000px;
+    margin: 0 auto;
+}
+nav{
+    margin-top: 15px;
+}
+.link{
+    padding-right: 15px;
+}
+
+form{
+    margin-top: 20px;            
+}
+
+button {
+    margin-top: 20px;
+    width: 20%;
+}
+.table{
+    margin-top: 20px;
+    table-layout: inherit;
+    border-collapse: collapse;
+  
+
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    text-align: center;
+  }
+  th{
+      background-color: beige;
+  }
+  td{
+      cursor: pointer;
+  }
