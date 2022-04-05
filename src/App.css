@@ -1,8 +1,32 @@
 @import url('https://cdn.jsdelivr.net/npm/water.css@2/out/water.css');
-*{
+
+body{
     width: 1000px;
     margin: 0 auto;
 }
+header {
+    height: 150px;
+    background-color: rgb(34, 222, 159);
+    margin-top: 20px;
+        
+}
+.header-text-container{
+    padding-top: 10px;
+    
+}
+
+ .header-title, .header-text{
+     padding-left: 50px;
+     color: white;
+ }
+
+
+
+.nav-link{
+    /* display: inline-block; */
+    padding: 10px 20px;
+}
+
 nav{
     margin-top: 15px;
 }
@@ -37,3 +61,33 @@ td, th {
   td{
       cursor: pointer;
   }
+  .property-btn {
+      width: 130px;
+      background-color: transparent;
+      border: 1px solid rgb(206, 196, 196);
+      color: black;
+  }
+  .property-btn.active{
+      border: 1px solid rgb(34, 222, 159);
+      color: rgb(34, 222, 159);
+  }
+  .properties-container {
+      display: flex;
+          
+      gap: 15px;
+  }
+  .single-property-container{
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid rgb(232, 226, 226);
+      box-shadow: 5px 5px 5px;
+  }
+  .single-property-container>h2,
+  .single-property-container>p
+  {
+      padding-left: 10px;
+  }
+  /* .property-image{
+      width: 200px;
+  } */

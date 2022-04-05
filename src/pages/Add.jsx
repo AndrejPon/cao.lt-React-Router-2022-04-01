@@ -6,7 +6,8 @@ function Add() {
   const [id, setId] = useState('');
   const [people, setPeople] = useState('');
   const [price, setPrice] = useState('');
-  async function sendFetch() {
+  async function sendFetch(e) {
+    e.preventDefault();
     const newObj = {
       id,
       people,
